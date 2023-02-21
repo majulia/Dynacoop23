@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynacoop2023", "Dynacoop2023\Dynacoop2023.csproj", "{9EEF9995-23FF-45CE-BE52-E01220750EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstPluginsAlfaPeople", "FirstPluginsAlfaPeople\FirstPluginsAlfaPeople.csproj", "{2339D5FA-39F9-4E5B-AC71-77E1183529CC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{BC3C1485-F322-472F-8A34-29AB0209D39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EEF9995-23FF-45CE-BE52-E01220750EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEF9995-23FF-45CE-BE52-E01220750EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEF9995-23FF-45CE-BE52-E01220750EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEF9995-23FF-45CE-BE52-E01220750EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A59A2FE4-3868-466B-81E9-6929D1745E0B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{2339d5fa-39f9-4e5b-ac71-77e1183529cc}*SharedItemsImports = 4
+		SharedProject\SharedProject.projitems*{bc3c1485-f322-472f-8a34-29ab0209d39b}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

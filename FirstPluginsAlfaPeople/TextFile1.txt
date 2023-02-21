@@ -1,0 +1,17 @@
+﻿IPluginExecutionContext : Recupera o contexto que na qual a classe 
+        Metodo principal do plugin : Execute
+
+        Sempre que precisar executar em outro dynamics, é necessário 
+            utilizar o Crm Client, por isso ele pode utilizar a conexão que está feita dentro do context. 
+
+            IMPORTANTE!!: Também usado para parametro de entradas
+
+            Target seria uma Entity(Entidade)
+            Exemplos de Target :
+
+            {               
+                     Target(Entity):{
+                     Columm1: blabla
+                     Columm2: blabla                 
+                    }                
+            }
