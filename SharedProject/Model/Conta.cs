@@ -197,10 +197,17 @@ namespace Dynacoop2023.Model
             ).Entities.FirstOrDefault();
         }
 
-        public void IncrementNumberOfOpp(Entity oppAccount)
+        public void IncrementOrDecrementNumberOfOpp(Entity oppAccount, bool? decrementOrIncrement)
         {
             int numberOfopp = oppAccount.Contains("dcp_nmr_total_opp") ? (int)oppAccount["dcp_nmr_total_opp"] : 0;
-            numberOfopp += 1;
+            if (Convert.ToBoolean(decrementOrIncrement))
+            {
+              numberOfopp += 1;
+            } else
+            {
+                numberOfopp -= 1;
+            }
+
             oppAccount["dcp_nmr_total_opp"] = numberOfopp;
             ServiceClient.Update(oppAccount);
         }

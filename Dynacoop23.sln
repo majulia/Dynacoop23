@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstPluginsAlfaPeople", "F
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{BC3C1485-F322-472F-8A34-29AB0209D39B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customizations", "Customizations\Customizations.csproj", "{A36333F4-499F-47E7-BF92-F89A6E71148F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2339D5FA-39F9-4E5B-AC71-77E1183529CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36333F4-499F-47E7-BF92-F89A6E71148F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36333F4-499F-47E7-BF92-F89A6E71148F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36333F4-499F-47E7-BF92-F89A6E71148F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36333F4-499F-47E7-BF92-F89A6E71148F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
